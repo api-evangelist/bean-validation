@@ -1,12 +1,27 @@
+aid: bean-validation
 name: Bean Validation
-description: Bean Validation is a specialized technology or methodology in the bean
-  domain that addresses specific technical or business requirements. It provides targeted
-  capabilities that help practitioners and organizations solve problems and improve
-  outcomes in their area of focus.
-url: null
+description: >-
+  Bean Validation is a Java specification (JSR 380) providing a standardized
+  way to define constraints on Java bean objects using annotations, enabling
+  automatic validation of data at the API layer and within applications.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Bean Validation
-created: '2025'
-modified: '2025'
+  - Bean Validation
+  - Java
+  - Validation
+  - Data Quality
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://beanvalidation.org/
+  - type: Documentation
+    url: https://beanvalidation.org/2.0/spec/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
