@@ -8,9 +8,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Bean Validation
+  - Data Quality
   - Java
   - Validation
-  - Data Quality
 url: >-
   https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/apis.yml
 created: '2025-01-01'
