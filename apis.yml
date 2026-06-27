@@ -65,7 +65,7 @@ apis:
         url: https://hibernate.org/validator/documentation/getting-started/
       - type: GitHubRepository
         url: https://github.com/hibernate/hibernate-validator
-      - type: SDK
+      - type: SDKs
         url: https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
         title: Maven Central
 
@@ -86,7 +86,7 @@ apis:
     properties:
       - type: Specification
         url: https://jakarta.ee/specifications/bean-validation/3.1/
-      - type: SDK
+      - type: SDKs
         url: https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
         title: Maven Central
 
