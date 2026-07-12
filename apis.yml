@@ -91,8 +91,12 @@ apis:
         title: Maven Central
 
 common:
+  - type: DomainSecurity
+    url: security/bean-validation-domain-security.yml
   - type: Website
     url: https://beanvalidation.org/
+  - url: https://beanvalidation.org/news/news.atom
+    type: Blog
   - type: Documentation
     url: https://beanvalidation.org/2.0/spec/
   - type: GitHubOrganization
