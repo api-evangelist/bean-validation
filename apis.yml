@@ -103,6 +103,17 @@ apis:
         title: Maven Central
 
 common:
+  - type: IssueTracker
+    url: https://github.com/jakartaee/validation/issues
+  - type: Releases
+    url: https://github.com/jakartaee/validation/releases
+  - type: CodeOfConduct
+    url: https://github.com/jakartaee/.github/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/jakartaee/validation/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/jakartaee/validation/blob/main/LICENSE
   - type: DomainSecurity
     url: security/bean-validation-domain-security.yml
   - type: Website
