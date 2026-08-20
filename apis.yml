@@ -93,6 +93,10 @@ apis:
     tags:
       - Bean Validation
       - Java
+      - Jakarta EE
+    tags_raw:
+      - Bean Validation
+      - Java
       - API
       - Jakarta EE
     properties:
