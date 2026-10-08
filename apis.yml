@@ -119,6 +119,12 @@ apis:
         title: Maven Central
 
 common:
+  - type: Plans
+    url: plans/bean-validation-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/bean-validation-rate-limits.yml
+  - type: FinOps
+    url: finops/bean-validation-finops.yml
   - type: IssueTracker
     url: https://github.com/jakartaee/validation/issues
   - type: Releases
