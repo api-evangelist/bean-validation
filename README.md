@@ -1,4 +1,4 @@
-# Bean Validation (bean-validation)
+# Bean Validation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,105 +66,104 @@
 
 Jakarta Bean Validation (formerly Java Bean Validation / JSR 380) is a Java specification providing a standardized constraint model and API for validating Java beans using annotations. It defines built-in constraints (@NotNull, @Size, @Min, @Max, @Pattern, @Email, etc.), a Validator API, constraint inheritance, and method/constructor parameter validation. The current stable release is Jakarta Validation 3.1. Hibernate Validator is the reference implementation. The specification is governed by the Jakarta EE Working Group under the Eclipse Foundation.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bean-validation/refs/heads/main/apis.yml)
+**Areas:** Bean Validation · Data Quality · Java · Validation · Jakarta EE · Constraints
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Bean Validation on APIs.io
 
-## Tags:
+Everything profiled for Bean Validation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bean-validation/](https://apis.io/providers/bean-validation/)** — or go straight to one of the APIs or properties below.
 
- - Bean Validation, Data Quality, Java, Validation, Jakarta EE, Constraints
+### APIs (3)
 
-## Timestamps
+- [Jakarta Bean Validation Specification 3.1](https://apis.io/apis/bean-validation/specification/) — The Jakarta Bean Validation 3.1 specification defines the constraint model, annotation processor, Validator API, method validation, group sequences,…
+- [Hibernate Validator](https://apis.io/apis/bean-validation/hibernate-validator/) — Hibernate Validator is the reference implementation of Jakarta Bean Validation. Version 9.1.0.Final implements the Jakarta Validation 3.1 specification. It…
+- [Jakarta Validation API](https://apis.io/apis/bean-validation/jakarta-validation-api/) — The Jakarta Validation API JAR provides the interfaces, annotations, and exception types that constitute the Bean Validation specification contract.…
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Jakarta Bean Validation Specification 3.1
-The Jakarta Bean Validation 3.1 specification defines the constraint model, annotation processor, Validator API, method validation, group sequences, cascaded validation, constraint composition, and the metadata API for introspecting validation constraints on Java classes, fields, methods, and constructors.
+#### Security (1)
 
-**Human URL:** [https://beanvalidation.org/3.1/](https://beanvalidation.org/3.1/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Bean Validation Domain Security](https://apis.io/security/bean-validation/bean-validation-domain-security/)
 
- - Bean Validation, Java, Jakarta EE, Specification
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://beanvalidation.org/3.1/)
-- [Specification](https://jakarta.ee/specifications/bean-validation/3.1/)
-- [GitHubRepository](https://github.com/jakartaee/validation)
+- [Bean Validation Plans Pricing](https://apis.io/plans/bean-validation/bean-validation-plans-pricing/)
 
-### Hibernate Validator
-Hibernate Validator is the reference implementation of Jakarta Bean Validation. Version 9.1.0.Final implements the Jakarta Validation 3.1 specification. It provides the Validator, ValidatorFactory, ConstraintViolation APIs, additional built-in constraints beyond the spec, programmatic constraint definition, and message interpolation.
+#### Rate limits (1)
 
-**Human URL:** [https://hibernate.org/validator/](https://hibernate.org/validator/)
+Published request limits.
 
-#### Tags:
+- [Bean Validation Rate Limits](https://apis.io/rate-limits/bean-validation/bean-validation-rate-limits/)
 
- - Bean Validation, Java, Reference Implementation, Hibernate
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/)
-- [GettingStarted](https://hibernate.org/validator/documentation/getting-started/)
-- [GitHubRepository](https://github.com/hibernate/hibernate-validator)
-- [SDK - Maven Central](https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator)
+- [Bean Validation Finops](https://apis.io/finops/bean-validation/bean-validation-finops/)
 
-### Jakarta Validation API
-The Jakarta Validation API JAR provides the interfaces, annotations, and exception types that constitute the Bean Validation specification contract. Includes @NotNull, @Size, @Min, @Max, @Pattern, @Email, @Future, @Past, @Positive, @Negative constraints, Validator, ValidatorFactory, ConstraintViolation, and Path types.
+## Where to find this API
 
-**Human URL:** [https://jakarta.ee/specifications/bean-validation/3.1/](https://jakarta.ee/specifications/bean-validation/3.1/)
-
-#### Tags:
-
- - Bean Validation, Java, API, Jakarta EE
-
-#### Properties
-
-- [Specification](https://jakarta.ee/specifications/bean-validation/3.1/)
-- [SDK - Maven Central](https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://beanvalidation.org/)
 - [Documentation](https://beanvalidation.org/2.0/spec/)
-- [GitHubOrganization](https://github.com/jakartaee)
-- [Versioning](https://beanvalidation.org/news/)
+- [Blog](https://beanvalidation.org/news/news.atom)
+- [GitHub](https://github.com/jakartaee)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Annotation-Based Constraints | Define validation constraints on Java beans using annotations such as @NotNull, @Size, @Min, @Max, @Pattern, @Email, and @Past. |
-| Method Validation | Validate method and constructor parameters and return values using constraint annotations on method signatures. |
-| Constraint Composition | Compose multiple constraints together using @Constraint and meta-annotations to create custom reusable constraint annotations. |
-| Group Sequences | Define validation groups and group sequences for ordered, conditional validation scenarios. |
-| Cascaded Validation | Trigger validation of nested objects using @Valid annotation for graph-level constraint validation. |
-| Programmatic API | Build and configure validators programmatically using the Validator and ValidatorFactory APIs without annotations. |
+**Kin Score 20.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| REST API Input Validation | Validate request body and query parameters in JAX-RS and Spring REST controllers using Bean Validation annotations. |
-| Form Validation | Validate user-submitted form data in Jakarta Faces, Spring MVC, and other web frameworks. |
-| Domain Model Validation | Enforce business rules and data integrity constraints on JPA entity classes and domain objects. |
-| Microservices Contract Validation | Validate inter-service request and response payloads to enforce API contracts in microservices architectures. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Spring Framework | Spring integrates Jakarta Bean Validation for controller method argument validation and service layer validation. |
-| Jakarta Persistence (JPA) | JPA providers call the Validator API before persisting entities to enforce database-layer constraint validation. |
-| Quarkus | Quarkus uses Hibernate Validator as its Bean Validation implementation with zero-config support in native images. |
-| Jakarta Faces (JSF) | Jakarta Faces integrates Bean Validation for automatic form field validation in web applications. |
-| Micronaut | Micronaut Framework uses Bean Validation for controller parameter and return value validation. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bean-validation/](https://apis.io/providers/bean-validation/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bean Validation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bean-validation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
